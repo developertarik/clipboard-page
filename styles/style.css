@@ -36,9 +36,11 @@ text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top:50px;
  }
 .box{
     display:flex;
+    margin-top:25px;
 }
 .box-1{
     position:relative;
