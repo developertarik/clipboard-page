@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
 body{
     font-family: 'Bai Jamjuree', sans-serif;
-    font-size:18px;
 }
 .header{
     display: flex;
@@ -37,11 +36,9 @@ text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top:50px;
  }
 .box{
     display:flex;
-    margin-top:50px;
 }
 .box-1{
     position:relative;
@@ -63,7 +60,6 @@ p{
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top:100px;
 }
 .main-main-boxes{
     display: flex;
@@ -89,8 +85,24 @@ footer{
     flex-direction: column;
     /* justify-content: flex-start; */
     align-items: center;
+    margin-bottom: 50px;
     text-align: center;
+}
+.footer-bottom2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .btn{
     cursor: pointer;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color:black;
+}
+.fbox-1{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
 }
